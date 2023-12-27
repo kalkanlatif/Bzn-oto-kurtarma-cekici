@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BZN Oto Kurtarıcı</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Bootstrap CSS dosyası -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    <style>
+        body {
+            background-color: #000000; 
+            margin: 0; 
+            padding: 0; 
+            color: #ffffff;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        #construction-message {
+            background-color: #f8d7da;
+            color: #721c24;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .logo {
+            max-width: 1000px;
+            height: auto;
+        }
+        @media (max-width: 767px) {
+            nav li {
+                display: block;
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+
+            .logo {
+                max-width: 100%;
+            }
+        }
+        /* Yeni eklenen stiller */
+        .service-item {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .service-item img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Navbar İçeriği -->
+</nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">BZNotokurtarici.com</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Hizmetlerimiz</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Hakkımızda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">İletişim</a>
+                </li>
+                <img class="logo" src="BZN.png" alt="Bozan Oto Kurtarma Logo">
+            </ul>
+        </div>
+        
+        <div class="text-right mt-3 mr-3">
+            <span style="font-size: 25px;">Telefon: <a href="tel:+905466593463">0546 659 34 63</a></span>
+            <button onclick="location.href='tel:+905351234567'" style="background-color: #007bff; color: #fff; border: none; padding: 10px 20px; margin-left: 20px; cursor: pointer;">Ara</button>
+        </div>
+        
+    </nav>
+
+    
+    <!-- Logo Ekleniyor -->
+    <footer>
+        <h2> Adres</h2> <p>Gözenek Mah. Gözenek sk. no:101 Bozova / Şanlıurfa</p>
+    </footer>
+    
+    <section id="services" class="container">
+        <h2>Hizmetlerimiz</h2>
+        <p>
+            Bozan Oto Kurtarma olarak, yolda kalan araç sahiplerine yardımcı olmak, kaza durumlarında güvenli bir şekilde
+            araçları çekmek ve her türlü oto kurtarma ihtiyacına cevap vermek için buradayız. Bize ulaşın, size nasıl
+            yardımcı olabileceğimizi görelim. 7/24 hizmetinizdeyiz.
+        </p>
+        
+        <div class="service-item">
+            <h2>Cektiğimiz Araç Türleri</h2>
+    <p>
+        otomobiller, traktörler, hafif is makineleri, Motosikletler, hafif ticari araclar ve benzeri araclar..
+    </p>
+            <img src="4.jpg" alt="Açıklama 1">
+            
+        </div>
+        <div class="service-item">
+            <h2> Unutma!</h2>
+            <p>Günlük kullanılan araçlar zaman zaman arıza yapabilir. Yakıt sorunu, elektriksel sorunlar, lastiğin patlaması veya başka nedenler araçların yolda kalmasına neden olur. Bu gibi durumlarda oto çekici hizmeti tercih edilir. Araç modeli, markası ve özellikleri çekme işleminde önemli değildir ve çekme işlemini yapan araç özel tasarlanmıştır. Aracın kaportasına veya başka bir mekanizmasına zarar vermez.</p>
+            <img src="3.jpg" alt="Açıklama 3">
+            
+        </div>
+
+        <div class="service-item">
+            <h2>Dahası, </h2>
+             <p>Kurtarılmış Araçların Güvenli Teslimatıni da yapiyoruz hic merak etmeyin..</p>
+            <img src="10.jpg" alt="Açıklama 3">
+            
+        </div>
+        
+        <div class="service-item">
+            <p><strong>Kaza Sonrası Çekici</strong></p><p>Kaza ve benzeri Durumlarda Araç Çekimi ve Kurtarma icin hemen bizi arayin, BZNotokurtarici olarak gerekeni hizli ve güvenli bir sekilde yapalim.</p>
+            <img src="9.jpg" alt="Açıklama 3">
+            
+        </div>
+        
+    </section>
+
+    <section id="about" class="container">
+        <h2>Hakkımızda</h2>
+        <p>BZNotokurtarici, oto kurtarma ve çekici hizmetleri sunmaktadır.</p>
+    </section>
+    <footer class="container text-center mt-5">
+        <p>
+            Bizi tercih ettiginiz icin TESEKKÜR EDERIZ.
+        </p>
+        <p>
+            Bozan Oto Kurtarıcı olarak, yolda güvende seyahat etmeniz dileğiyle. Her zaman hizmetinizdeyiz. Sorularınız,
+            önerileriniz veya acil durumlar için bize ulaşmaktan çekinmeyin. Yolculuğunuz boyunca sizinle birlikte olmayı dört
+            gözle bekliyoruz...
+        </p>
+    <section id="contact" class="container">
+        <h2>İletişim Bilgileri</h2>
+        <p>Telefon: 0546 659 34 63</p>
+        <p>Email: kalkanlatif818@gmail.com</p>
+
+        <h2>İletişim Formu</h2>
+        <form action="/submit_contact" method="post" class="mt-4">
+            <div class="form-group">
+                <label for="name">Adınız:</label>
+                <input type="text" name="name" id="name" class="form-control" required autocomplete="name">
+            </div>
+            <div class="form-group">
+                <label for="email">E-posta Adresiniz:</label>
+                <input type="email" name="email" id="email" class="form-control" required autocomplete="email">
+            </div>
+            <div class="form-group">
+                <label for="message">Mesajınız:</label>
+                <textarea name="message" id="message" class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Gönder</button>
+        </form>
+    </section>
+</body>
+
+</html>
